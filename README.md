@@ -26,5 +26,6 @@ Provide simple instructions here for cloning the Git repository, installing depe
 Contributions and Feedback:
 Contributions in the form of pull requests are welcome to enhance this application. If you have any feedback, 
 suggestions for improvement, or encounter issues, feel free to open an issue on the Git repository.
-and it's in t
+
+https://github.com/sanaeAtt/TicTacGame/assets/93257453/44820339-5dea-4f4c-897c-78995c9106c2
 
