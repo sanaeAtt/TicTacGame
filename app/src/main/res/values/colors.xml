@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="DarckBrawn">#422304</color>
+    <color name="Beige">#FDFDFD</color>
+    <color name="latebrawn">#D2996C</color>
+    <color name="lateBleu">#dcf4ff</color>
+    <color name="lateBleutran">#74DCF4FF</color>
+    <color name="DarckBleu">#101132</color>
+    <color name="Antiquewhite">#FAEBD7</color>
+    <color name="lightwhite">#f9fdff</color>
+    <color name="Bleu">#01f2f9</color>
+    <color name="Yellow">#fed806</color>
+
+</resources>

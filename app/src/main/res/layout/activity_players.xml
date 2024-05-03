@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:adjustViewBounds="true"
+    android:background="@drawable/ph"
+    android:padding="20dp"
+    android:scaleType="centerInside"
+    tools:context=".Players">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="136dp"
+        android:rotationX="62"
+        android:rotationY="33"
+        android:src="@color/Bleu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/font3"
+        android:gravity="center"
+        android:text="@string/title1"
+        android:textColor="@color/lateBleu"
+        android:textSize="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/font3"
+        android:gravity="center"
+        android:text="@string/suitTitle1"
+        android:textColor="@color/lateBleu"
+        android:textSize="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tit" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.5">
+
+        <EditText
+            android:id="@+id/nameplyr1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/bgplayername"
+            android:maxLines="1"
+            android:paddingLeft="30dp"
+            android:text="@string/pl1"
+            android:textColor="@color/DarckBleu" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgx"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/bgx"
+                    android:src="@drawable/x" />
+
+                <RadioButton
+                    android:id="@+id/x"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/imgx"
+                    android:layout_marginLeft="10dp"
+                    android:checked="true"
+                    android:gravity="center_vertical"
+                    android:onClick="check"
+                    app:buttonTint="@color/lateBleu" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgo"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="30dp"
+                    android:src="@drawable/o" />
+
+                <RadioButton
+                    android:id="@+id/o"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/imgx"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical"
+                    android:onClick="check"
+                    app:buttonTint="@color/lateBleu" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/nameplyr2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bgplayername"
+            android:maxLines="1"
+            android:paddingLeft="30dp"
+            android:text="@string/pl2"
+            android:textColor="@color/DarckBleu" />
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/Bleu"
+            android:fontFamily="@font/font2"
+            android:text="@string/str"
+            android:textColor="@color/DarckBleu"
+            android:textSize="30dp"
+            app:cornerRadius="20dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

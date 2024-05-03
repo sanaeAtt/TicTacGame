@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TicTacGame</string>
+    <string name="title1">NEW</string>
+    <string name="suitTitle1">GAME</string>
+    <string name="pl1">Player1</string>
+    <string name="pl2">Player2</string>
+    <string name="str">START</string>
+    <string name="rst">RESET</string>
+    <string name="choice">Choose your play mode</string>
+    <string name="ai">Play with Robot</string>
+    <string name="freind">Play with friend</string>
+    <string name="med">Medium</string>
+    <string name="hard">Hard</string>
+
+</resources>
